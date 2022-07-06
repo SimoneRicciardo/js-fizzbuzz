@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(62, 62, 133);
+}
+
+#container{
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+h1{
+    text-align: center;
+    padding: 15px 0;
+    color: white;
+}
